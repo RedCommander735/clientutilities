@@ -3,15 +3,15 @@
 	"id": "clientutilities",
 	"version": "${version}",
 	"name": "clientutilities",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod containing various clientside utilities.",
 	"authors": [
-		"Me!"
+		"redcommander735"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "https://github.com/RedCommander735",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/clientutilities/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"de.redcommander735.clientutilities.ClientutilitiesDataGenerator"
+		],
+		"client": [
+			"de.redcommander735.clientutilities.ClientutilitiesClient"
 		]
 	},
 	"mixins": [
