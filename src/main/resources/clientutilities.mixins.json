@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "de.redcommander735.clientutilities.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
